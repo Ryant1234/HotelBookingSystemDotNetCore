@@ -1,0 +1,9 @@
+C:\Users\Ryan Thomas\Source\Repos\HotelBookingDotNetCore\HotelBookingDotNetCore\bin\Debug\netcoreapp1.1\HotelBookingDotNetCore.deps.json
+C:\Users\Ryan Thomas\Source\Repos\HotelBookingDotNetCore\HotelBookingDotNetCore\bin\Debug\netcoreapp1.1\HotelBookingDotNetCore.runtimeconfig.json
+C:\Users\Ryan Thomas\Source\Repos\HotelBookingDotNetCore\HotelBookingDotNetCore\bin\Debug\netcoreapp1.1\HotelBookingDotNetCore.runtimeconfig.dev.json
+C:\Users\Ryan Thomas\Source\Repos\HotelBookingDotNetCore\HotelBookingDotNetCore\bin\Debug\netcoreapp1.1\HotelBookingDotNetCore.dll
+C:\Users\Ryan Thomas\Source\Repos\HotelBookingDotNetCore\HotelBookingDotNetCore\bin\Debug\netcoreapp1.1\HotelBookingDotNetCore.pdb
+C:\Users\Ryan Thomas\Source\Repos\HotelBookingDotNetCore\HotelBookingDotNetCore\obj\Debug\netcoreapp1.1\HotelBookingDotNetCore.csprojResolveAssemblyReference.cache
+C:\Users\Ryan Thomas\Source\Repos\HotelBookingDotNetCore\HotelBookingDotNetCore\obj\Debug\netcoreapp1.1\HotelBookingDotNetCore.AssemblyInfo.cs
+C:\Users\Ryan Thomas\Source\Repos\HotelBookingDotNetCore\HotelBookingDotNetCore\obj\Debug\netcoreapp1.1\HotelBookingDotNetCore.dll
+C:\Users\Ryan Thomas\Source\Repos\HotelBookingDotNetCore\HotelBookingDotNetCore\obj\Debug\netcoreapp1.1\HotelBookingDotNetCore.pdb
