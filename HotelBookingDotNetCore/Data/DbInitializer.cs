@@ -40,11 +40,11 @@ namespace HotelBookingDotNetCore.Data
 
             var bookings = new Booking[]
             {
-                new Booking { BookingID=1, RoomID=1, GuestID=1, BookingFrom= DateTime.ParseExact("15/06/2017", "dd/MM/YYYY", null) , BookingTo = DateTime.ParseExact("20/06/2017", "dd/MM/YYYY", null), CheckInTime = DateTime.ParseExact("15/06/2015 12:00:00", "dd/MM/yyyy HH:mm:ss",null), CheckOutTime = DateTime.ParseExact("20/06/2015 12:00:00", "dd/MM/yyyy HH:mm:ss",null) },
+                new Booking { BookingID=1, RoomID=1, GuestID=1, BookingFrom= DateTime.ParseExact("15/06/2017", "dd/MM/yyyy", null) , BookingTo = DateTime.ParseExact("20/06/2017", "dd/MM/yyyy", null), CheckInTime = DateTime.ParseExact("15/06/2015 12:00:00", "dd/MM/yyyy HH:mm:ss",null), CheckOutTime = DateTime.ParseExact("20/06/2015 12:00:00", "dd/MM/yyyy HH:mm:ss",null) },
 
-                new Booking { BookingID=2, RoomID=2, GuestID=2, BookingFrom= DateTime.ParseExact("15/06/2017", "dd/MM/YYYY", null) , BookingTo = DateTime.ParseExact("20/06/2017", "dd/MM/YYYY", null), CheckInTime = DateTime.ParseExact("15/06/2015 12:00:00", "dd/MM/yyyy HH:mm:ss",null), CheckOutTime = DateTime.ParseExact("20/06/2015 12:00:00", "dd/MM/yyyy HH:mm:ss",null) },
+                new Booking { BookingID=2, RoomID=2, GuestID=2, BookingFrom= DateTime.ParseExact("15/06/2017", "dd/MM/yyyy", null) , BookingTo = DateTime.ParseExact("20/06/2017", "dd/MM/yyyy", null), CheckInTime = DateTime.ParseExact("15/06/2015 12:00:00", "dd/MM/yyyy HH:mm:ss",null), CheckOutTime = DateTime.ParseExact("20/06/2015 12:00:00", "dd/MM/yyyy HH:mm:ss",null) },
 
-                new Booking { BookingID=3, RoomID=3, GuestID=3, BookingFrom= DateTime.ParseExact("15/06/2017", "dd/MM/YYYY", null) , BookingTo = DateTime.ParseExact("20/06/2017", "dd/MM/YYYY", null), CheckInTime = DateTime.ParseExact("15/06/2015 12:00:00", "dd/MM/yyyy HH:mm:ss",null), CheckOutTime = DateTime.ParseExact("20/06/2015 12:00:00", "dd/MM/yyyy HH:mm:ss",null) },
+                new Booking { BookingID=3, RoomID=3, GuestID=3, BookingFrom= DateTime.ParseExact("15/06/2017", "dd/MM/yyyy", null) , BookingTo = DateTime.ParseExact("20/06/2017", "dd/MM/yyyy", null), CheckInTime = DateTime.ParseExact("15/06/2015 12:00:00", "dd/MM/yyyy HH:mm:ss",null), CheckOutTime = DateTime.ParseExact("20/06/2015 12:00:00", "dd/MM/yyyy HH:mm:ss",null) },
                 };
 
             foreach (Booking b in bookings)
@@ -90,4 +90,4 @@ namespace HotelBookingDotNetCore.Data
          
         }
     }
-}
+

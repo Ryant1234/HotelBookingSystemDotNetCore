@@ -1,0 +1,60 @@
+@model HotelBookingDotNetCore.Models.Invoice
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Invoice</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerID)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CustomerID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateCreated)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateCreated)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DatePaid)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DatePaid)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MiniBarCharge)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MiniBarCharge)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RoomPrice)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RoomPrice)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalPrice)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TotalPrice)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Booking)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Booking.BookingID)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.InvoiceID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
